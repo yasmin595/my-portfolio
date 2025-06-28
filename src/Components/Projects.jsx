@@ -34,7 +34,7 @@ const projects = [
     liveLink: 'https://eleventh-assignment-168a5.web.app/',
     githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-yasmin595',
     techStack:
-      'React, Tailwind CSS, Framer Motion, Lottie, Firebase,react-router, express-js, mongodb ',
+      'React, Tailwind CSS, Framer Motion, Lottie, Firebase,react-router, express-js, mongodb, jwt ',
     description:
       'A modern, responsive web app to help people post, discover, and recover lost items easily.',
     features: [
@@ -55,7 +55,7 @@ const projects = [
     title: 'Event-Explorer',
     image: 'https://i.ibb.co/QvJscbtt/Screenshot-2025-06-29-030217.png',
     liveLink: 'https://ninth-assignment-repo.web.app/',
-    githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-yasmin595',
+    githubLink: 'https://github.com/programming-hero-web-course1/b11a9-react-authentication-yasmin595',
     techStack:
       'React, Tailwind CSS, Framer Motion, react-router Firebase,',
     description:
