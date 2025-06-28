@@ -14,7 +14,7 @@ const Navbar = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><a href="#about" className='hover:text-green-800 hover:font-semibold'>About Me</a></li>
         <li><a href="#skills" className='hover:text-green-800 hover:font-semibold'>Skills</a></li>
-        <li><a className='hover:text-green-800 hover:font-semibold'>Projects</a></li>
+       <li><a href="#projects" className='hover:text-green-800 hover:font-semibold'>Projects</a></li>
        <li><a href="#education" className='hover:text-green-800 hover:font-semibold'>Education</a></li>
         <li className='hover:text-green-800 hover:font-semibold'><a>Contact</a></li>
       </ul>
@@ -25,9 +25,10 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1">
        <li><a href="#about" className='hover:text-green-800 hover:font-semibold'>About Me</a></li>
         <li><a href="#skills" className='hover:text-green-800 hover:font-semibold'>Skills</a></li>
-        <li><a className='hover:text-green-800 hover:font-semibold'>Projects</a></li>
+      <li><a href="#projects" className='hover:text-green-800 hover:font-semibold'>Projects</a></li>
      <li><a href="#education" className='hover:text-green-800 hover:font-semibold'>Education</a></li>
-        <li className='hover:text-green-800 hover:font-semibold'><a>Contact</a></li>
+   
+     
     </ul>
   </div>
   <div className="navbar-end">

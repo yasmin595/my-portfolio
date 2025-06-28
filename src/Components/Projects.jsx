@@ -11,7 +11,7 @@ const projects = [
     liveLink: 'https://tenth-assignment-repo.web.app',
     githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-yasmin595',
     techStack:
-      'React, Tailwind CSS, Firebase, React Router, React Toastify, SweetAlert2, React Simple Typewriter',
+      'React, Tailwind CSS, Firebase, React Router, mongodb, express.js, React Simple Typewriter ',
     description:
       'A modern, responsive web application where clients can post freelance tasks and freelancers can place bids.',
     features: [
@@ -34,7 +34,7 @@ const projects = [
     liveLink: 'https://eleventh-assignment-168a5.web.app/',
     githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-yasmin595',
     techStack:
-      'React, Tailwind CSS, Framer Motion, Lottie, Firebase, Axios, Date-fns, React Toastify, React Tooltip',
+      'React, Tailwind CSS, Framer Motion, Lottie, Firebase,react-router, express-js, mongodb ',
     description:
       'A modern, responsive web app to help people post, discover, and recover lost items easily.',
     features: [
@@ -50,6 +50,24 @@ const projects = [
     challenges: 'Integrating search & filter logic and managing real-time updates.',
     future: 'Add location-based alert system and admin dashboard.',
   },
+  {
+    id: 3,
+    title: 'Event-Explorer',
+    image: 'https://i.ibb.co/QvJscbtt/Screenshot-2025-06-29-030217.png',
+    liveLink: 'https://ninth-assignment-repo.web.app/',
+    githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-yasmin595',
+    techStack:
+      'React, Tailwind CSS, Framer Motion, react-router Firebase,',
+    description:
+      'People can manage there event',
+    features: [
+      'Firebase Authentication (Email/Password)',
+      'manage event',
+      'Responsive design',
+    ],
+    challenges: 'Integrating firebase authentication ',
+    future: 'add backend',
+  },
 ];
 
 const Projects = () => {
@@ -62,7 +80,7 @@ const Projects = () => {
           My Projects
         </h2>
 
-        <div className="grid my-8 md:grid-cols-2   gap-8 px-4" data-aos="fade-up">
+        <div className="grid my-8 md:grid-cols-1   gap-8 px-4" data-aos="fade-up">
           {projects.map((project) => (
             <motion.div
               key={project.id}
@@ -72,7 +90,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-11/12 h-40  object-cover"
+                className="w-11/12 h-80  object-cover py-4"
               />
               <div className="p-8 text-left">
                 <h3 className="text-lg font-bold text-gray-800">{project.title}</h3>
@@ -140,7 +158,7 @@ const Projects = () => {
                 <div className="flex justify-between text-sm pt-2">
                   <a
                     href={selectedProject.liveLink}
-                    className="text-green-600 hover:underline flex items-center gap-1"
+                    className="text-green-600 btn hover:underline flex items-center gap-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -148,7 +166,7 @@ const Projects = () => {
                   </a>
                   <a
                     href={selectedProject.githubLink}
-                    className="text-blue-600 hover:underline flex items-center gap-1"
+                    className="text-blue-600 btn  hover:underline flex items-center gap-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
