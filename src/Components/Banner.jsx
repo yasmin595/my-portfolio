@@ -40,20 +40,20 @@ const Banner = () => {
             </h2>
 
             <p className="text-gray-600 mb-6 font-semibold">
-              Passionate about crafting beautiful and user-friendly web applications with React & Tailwind.
+              Passionate about crafting beautiful and user-friendly web applications with React , Express.js, Mongodb, firebase & Tailwind.
             </p>
 
             {/* Social Icons */}
             <div className="flex justify-center lg:justify-start gap-4 mb-6">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/yasmin595" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-2xl text-gray-700 hover:text-green-700 transition" />
               </a>
-              <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/AmatullahY52946" target="_blank" rel="noopener noreferrer">
                 <FaXTwitter className="text-2xl text-gray-700 hover:text-green-700 transition" />
               </a>
-              <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
                 <FaFacebook className="text-2xl text-gray-700 hover:text-green-700 transition" />
-              </a>
+              </a> */}
             </div>
 
             {/* CTA Button */}

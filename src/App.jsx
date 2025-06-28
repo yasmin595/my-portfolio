@@ -10,6 +10,7 @@ import Skills from './Components/Skills';
 import Education from './Components/Education';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 
 
 
@@ -29,6 +30,7 @@ useEffect(() => {
      <Projects></Projects>
      <Education></Education>
      <Contact></Contact>
+     <Footer></Footer>
     
     </>
   )

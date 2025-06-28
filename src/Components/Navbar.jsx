@@ -16,10 +16,10 @@ const Navbar = () => {
         <li><a href="#skills" className='hover:text-green-800 hover:font-semibold'>Skills</a></li>
        <li><a href="#projects" className='hover:text-green-800 hover:font-semibold'>Projects</a></li>
        <li><a href="#education" className='hover:text-green-800 hover:font-semibold'>Education</a></li>
-        <li className='hover:text-green-800 hover:font-semibold'><a>Contact</a></li>
+      <li><a href="#contact" className='hover:text-green-800 hover:font-semibold'>Contact</a></li>
       </ul>
     </div>
-    <a className="text-green-700 font-bold text-xl">Suborna Yasmin</a>
+    <a href="/" className="text-green-700 font-bold text-xl">Suborna Yasmin</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -27,6 +27,7 @@ const Navbar = () => {
         <li><a href="#skills" className='hover:text-green-800 hover:font-semibold'>Skills</a></li>
       <li><a href="#projects" className='hover:text-green-800 hover:font-semibold'>Projects</a></li>
      <li><a href="#education" className='hover:text-green-800 hover:font-semibold'>Education</a></li>
+     <li><a href="#contact" className='hover:text-green-800 hover:font-semibold'>Contact</a></li>
    
      
     </ul>
