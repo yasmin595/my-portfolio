@@ -9,7 +9,8 @@ const projects = [
     title: 'Freelancer Task Marketplace',
     image: 'https://i.ibb.co/GQxs1xLX/Screenshot-2025-06-28-233323.png',
     liveLink: 'https://tenth-assignment-repo.web.app',
-    githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-yasmin595',
+    githubLink: 'https://github.com/yasmin595/tenth-assignment-repo-p',
+    githubLinkServer: 'https://github.com/yasmin595/tenth-assignment-server-p',
     techStack:
       'React, Tailwind CSS, Firebase, React Router, mongodb, express.js, React Simple Typewriter ',
     description:
@@ -29,10 +30,11 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Lost & Found Website',
+    title: 'WhereIsIt',
     image: 'https://i.ibb.co/hRsTPwbC/Screenshot-2025-06-28-235158.png',
     liveLink: 'https://eleventh-assignment-168a5.web.app/',
-    githubLink: 'https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-yasmin595',
+    githubLink: 'https://github.com/yasmin595/eleventh-assignmnet',
+    githubLinkServer: 'https://github.com/yasmin595/eleventh-assignmnet-server-p',
     techStack:
       'React, Tailwind CSS, Framer Motion, Lottie, Firebase,react-router, express-js, mongodb, jwt ',
     description:
@@ -55,7 +57,7 @@ const projects = [
     title: 'Event-Explorer',
     image: 'https://i.ibb.co/QvJscbtt/Screenshot-2025-06-29-030217.png',
     liveLink: 'https://ninth-assignment-repo.web.app/',
-    githubLink: 'https://github.com/programming-hero-web-course1/b11a9-react-authentication-yasmin595',
+    githubLink: 'https://github.com/yasmin595/ninth-assignment-repo',
     techStack:
       'React, Tailwind CSS, Framer Motion, react-router Firebase,',
     description:
@@ -170,7 +172,15 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Github size={16} /> GitHub
+                    <Github size={16} /> GitHub Client
+                  </a>
+                  <a
+                    href={selectedProject.githubLinkServer}
+                    className="text-blue-600 btn  hover:underline flex items-center gap-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github size={16} /> GitHub Server
                   </a>
                 </div>
               </motion.div>
