@@ -33,7 +33,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://drive.google.com/file/d/1NGmhP6gHcK7N5gYKvquqRb0sSxSQCWrR/view?usp=sharing' className="btn bg-white text-green-700 border-green-800 hover:bg-green-700 hover:text-white">Resume</a>
+    <a href='https://drive.google.com/file/d/1yTsFxWGT3f8_DaAv2NW9kC63vDa2EVk2/view?usp=sharing' className="btn bg-white text-green-700 border-green-800 hover:bg-green-700 hover:text-white">Resume</a>
   </div>
 </div>
         </div>

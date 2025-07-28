@@ -17,7 +17,7 @@ const Contact = () => {
                <strong>  email:</strong> yasminsuborna8@gmail.com
             </p>
             <p className="text-gray-700 mb-2">
-               <strong>Phone /WhatsApp:</strong> +8801XXXXXXXXX
+               <strong>Phone /WhatsApp:</strong> +8801989901898
             </p>
             <p className="text-gray-700 text-sm">
                Feel free to message me directly on WhatsApp for quick replies.

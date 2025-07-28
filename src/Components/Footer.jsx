@@ -1,5 +1,5 @@
 
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
 
@@ -61,9 +61,10 @@ const Footer = () => {
               <a href="https://x.com/AmatullahY52946" target="_blank" rel="noopener noreferrer">
                 <FaXTwitter className="text-2xl text-gray-700 hover:text-green-700 transition" />
               </a>
-               <a href="https://www.linkedin.com/in/subornayasmin" target="_blank" rel="noopener noreferrer">
-                              <FaLinkedin className="text-2xl text-gray-700 hover:text-green-700 transition" />
-                            </a>
+              <a href="https://www.linkedin.com/in/subornayasmin" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin  className="text-2xl text-gray-700 hover:text-green-700 transition" />
+              </a>
+            
               </div>
                </div>
                 </div>
