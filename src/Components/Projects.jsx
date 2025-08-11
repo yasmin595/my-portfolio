@@ -5,7 +5,32 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: 'Medical Camp Management System',
+  image: 'https://i.ibb.co.com/j9wxvtnh/Screenshot-2025-08-11-210327.png',
+  liveLink: 'https://twelfth-assignment-86afb.web.app/',
+  githubLink: 'https://github.com/yasmin595/twelfth-repo',
+  githubLinkServer: 'https://github.com/yasmin595/twelfth-server-p',
+  techStack:
+    'React, Tailwind CSS, Firebase, React Router, MongoDB, Express.js, Stripe, Axios, React Query, SweetAlert2, React Toastify',
+  description:
+    'A role-based medical camp management platform that allows admins, organizers, and participants to efficiently manage medical camps, registrations, and payments.',
+  features: [
+    'Role-based dashboards for Admin, Organizer, and Participant',
+    'Add, update, and delete medical camps',
+    'Join and manage camp participation',
+    'Secure Stripe payment integration',
+    'Real-time notifications for approvals, submissions, and withdrawals',
+    'View and manage participant profiles',
+    'Feedback collection system',
+    'Responsive and user-friendly UI',
+    'Demo Admin Account: Email - mdrifatnicevedio202@gmail.com | Password - a123456S'
+  ],
+  challenges: 'Implementing role-based authentication and integrating Stripe payments.',
+  future: 'Add live chat between organizers and participants, and automated email notifications.',
+},
+  {
+    id: 3,
     title: 'Freelancer Task Marketplace',
     image: 'https://i.ibb.co/GQxs1xLX/Screenshot-2025-06-28-233323.png',
     liveLink: 'https://tenth-assignment-repo.web.app',
@@ -52,24 +77,7 @@ const projects = [
     challenges: 'Integrating search & filter logic and managing real-time updates.',
     future: 'Add location-based alert system and admin dashboard.',
   },
-  {
-    id: 3,
-    title: 'Event-Explorer',
-    image: 'https://i.ibb.co/QvJscbtt/Screenshot-2025-06-29-030217.png',
-    liveLink: 'https://ninth-assignment-repo.web.app/',
-    githubLink: 'https://github.com/yasmin595/ninth-assignment-repo',
-    techStack:
-      'React, Tailwind CSS, Framer Motion, react-router Firebase,',
-    description:
-      'People can manage there event',
-    features: [
-      'Firebase Authentication (Email/Password)',
-      'manage event',
-      'Responsive design',
-    ],
-    challenges: 'Integrating firebase authentication ',
-    future: 'add backend',
-  },
+
 ];
 
 const Projects = () => {
